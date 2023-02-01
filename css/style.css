@@ -1,0 +1,91 @@
+header {
+  text-align: center;
+  background: url("../Photos/photo1.jpeg");
+  background-size: cover;
+  color: white;
+}
+a {
+  color: white;
+}
+.yo {
+  color: black;
+}
+h1 {
+  font-size: 70px;
+}
+img {
+  margin: 50px 0px 0px 0px;
+  border: 7px solid black;
+  border-radius: 20px;
+  height: 400px;
+
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.7);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+iframe {
+  height: 1000px;
+  width: 750px;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+  iframe {
+    height: 350px;
+    width: 100%;
+  }
+}
