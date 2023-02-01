@@ -4,13 +4,18 @@
 
 body {
     margin: 0;
-    /* background-image: url("IMG_8588 Small.jpeg"); */
+   
     background-color: white;
   }
-
-  h1 {
+.project {
+    background: url("../Photos/decisions.png");
+}
+  h1,  h3 {
   
     text-align: center;
+}
+h2 {
+    padding: 0 5rem;
 }
 
 .carousel {
